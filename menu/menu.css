@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "MonteCarlo";
+    src: local("MonteCarlo"),
+        url("../fonts/MonteCarlo/MonteCarlo-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat"),
+        url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+/* Body */
+body {
+    margin: 0;
+    background: #F3F2EF;
+    font-size: 100%;
+    font-family: Montserrat;
+}
+
+.body {
+    max-width: 100%;
+}
+
+.navbar-brand {
+    margin-left: 7%;
+}
+
+.nav-centered {
+    width: 100%;
+    justify-content: flex-end;
+}
+
+li img{
+    width: 2.55vw;
+    margin-right: 20px;
+}
+/* Главная часть */
+.sidenav_menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+}
+
+/* Боковая навигация */
+.nav_menu {
+    margin-top: 8%;
+    width: 12vw;
+    height: 36vw;
+}
+
+.center {
+    align-items: center;
+}
+
+/* Карточки */
+.card {
+    --bs-card-bg: none;
+    --bs-card-border-color: none;
+    --bs-card-inner-border-radius: none;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.card-body {
+    color: #000;
+    text-align: center;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cardDesc {
+    display: none;
+    width: 14.79vw;
+    height: 20vw;
+    background: rgba(89, 90, 85, 0.74);
+    position: absolute;
+    padding: 15px;
+}
+
+.cardDesc span {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1vw;
+}
+
+.card-text {
+    color: #000;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card-body p {
+    width: 14.79vw;
+}
+
+.card-img-top {
+    height: 20vw;
+}
+
+.containerCards {
+    display: grid;
+    grid-template-rows: repeat(3, 65vw);
+}
+
+.cards_coffe {
+    display: grid;
+    grid-template-columns: repeat(3, 23vw);
+    justify-content: center;
+    gap: 4vw;
+
+}
+
+/* .cards_tea {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+} */
+
+/* Футер */
+footer {
+    margin: 3%;
+    margin-top: 15%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact {
+    text-align: center;
+}
+
+.number {
+    text-align: center;
+}
+
+.icon {
+    width: 3.4vw;
+    height: 3.4vw;
+    margin-right: 4vw;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+}
